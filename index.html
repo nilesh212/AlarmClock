@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Alarm Clock</title>
+  </head>
+  <body>
+    <div class="clock-container">
+      <div class="display-clock">
+        <h1 class="clock-style">
+          <span class="display-hours">10</span> :
+          <span class="display-minutes">10</span> :
+          <span class="display-seconds">00</span>
+          <span class="display-timezone">AM</span>
+        </h1>
+        <div class="form-rules"></div>
+        <form method="post" class="alarm-form">
+          <div class="input-alarm">
+            <input
+              type="number"
+              name="hour"
+              id="input-hours"
+              placeholder="HRS"
+              required
+            />
+            <input
+              type="number"
+              name="minute"
+              id="input-minutes"
+              placeholder="MIN"
+              required
+            />
+            <input
+              type="number"
+              name="second"
+              id="input-seconds"
+              placeholder="SEC"
+              required
+            />
+            <select name="time-zone" id="input-timezone">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </div>
+          <button class="btn-set-alarm">Set Alarm</button>
+        </form>
+      </div>
+    </div>
+    <div class="alarm-list">
+      <h2>Alarm List</h2>
+      <div class="alarm-info">
+        <div class="no-alarm"><span>No Alarms</span></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
