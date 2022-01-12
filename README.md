@@ -14,7 +14,7 @@ RULES FOR SETTING ALARM:
 * Range of Hours should be between 1-12 inclusive.
 
 
-Interface of this webpage is very attractive.
+Interface of this webpage is very attractive and intuitive.
 
 LINK:
 https://nilesh212.github.io/AlarmClock/
