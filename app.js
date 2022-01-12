@@ -1,3 +1,26 @@
+/*--------------------------------------------------------------*/
+/* IMPORTANT SECTION:
+  PRESS CTRL+F AND TYPE FOLLOWING  NAMES TO NAVIGATE TO THESE SECTIONS
+  --------------------------------------------------------------
+  A] FETCH CLASSES AND IDS
+  --------------------------------------------------------------
+  B] SET TIME IN DIGITAL CLOCK AFTER EVERY SECOND
+  --------------------------------------------------------------
+  C] DISPLAY ALARM ON SCREEN WHEN USER CLICKS ON SET ALARM BUTTON
+  --------------------------------------------------------------
+  D] DISPLAY RULES
+  --------------------------------------------------------------
+  E] DELETE ALARM
+  --------------------------------------------------------------
+  F] SET MESSAGE WHEN NO ALARM
+  --------------------------------------------------------------
+*/
+/*--------------------------------------------------------------*/
+
+/*----------------------------------------------------------
+// FETCH CLASSES AND IDS
+-------------------------------------------------------------*/
+
 var displayClock = document.querySelector(".display-clock");
 var setAlarmButton = document.querySelector(".btn-set-alarm");
 var displayAlarm = document.querySelector(".display-alarm");
