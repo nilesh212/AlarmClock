@@ -9,7 +9,7 @@ As alarms time goes off browser will alert the user.
 User can see real time Clock. Clock is a 12-hr Digital Clock.
 
 ### RULES FOR SETTING ALARM:
-* User must use 12 hour format.
+* User must use <a href="https://www.theschoolrun.com/what-are-12-hour-and-24-hour-clock">12 hour format</a>.
 * Range of Minutes and Seconds should be between 0-59 inclusive.
 * Range of Hours should be between 1-12 inclusive.
 
