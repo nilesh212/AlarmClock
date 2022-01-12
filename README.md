@@ -14,7 +14,7 @@ User can see real time Clock. Clock is a 12-hr Digital Clock.
 * Range of Hours should be between 1-12 inclusive.
 
 ### Prerequisites
-Only Web Browser.
+* Only Web Browser.
 
 Interface of this webpage is very attractive and intuitive.
 
