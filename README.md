@@ -4,6 +4,8 @@
 AlarmClock is a static webpage.
 
 On this page user can set as many alarms as he/she wants.
+As alarms time goes off browser will alert the user.
+
 User can see real time Clock. Clock is a 12-hr Digital Clock.
 
 RULES FOR SETTING ALARM:
