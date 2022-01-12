@@ -16,5 +16,7 @@ RULES FOR SETTING ALARM:
 
 Interface of this webpage is very attractive and intuitive.
 
+<h4>If you find any bug, let me know.</h4>
+
 LINK:
 https://nilesh212.github.io/AlarmClock/
