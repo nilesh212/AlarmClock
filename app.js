@@ -130,13 +130,13 @@ setAlarmButton.addEventListener("click", function (e) {
       let setAlarm = alarmList.childNodes[3];
       setAlarm.appendChild(createAlarm);
 
-      lengthOFAlarmInfo();
+      lengthOFAlarmList();
 
       let deleteAlarm = createAlarm.lastElementChild;
       deleteAlarm.addEventListener("click", function (e) {
         e.preventDefault();
         createAlarm.remove();
-        lengthOFAlarmInfo();
+        lengthOFAlarmList();
       });
 
       document.querySelector("#input-hours").value = "";
@@ -181,7 +181,7 @@ function deleteAlarmfun(
 /*----------------------------------------------------------
 // SET MESSAGE WHEN NO ALARM
 -------------------------------------------------------------*/
-function lengthOFAlarmInfo() {
+function lengthOFAlarmList() {
   let alarmInfoClass = document.querySelector(".alarm-info");
 
   if (alarmInfoClass.children.length > 1) {
